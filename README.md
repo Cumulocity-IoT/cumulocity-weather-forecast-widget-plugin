@@ -54,7 +54,7 @@ This guide will teach you how to add the widget in your existing or new dashboar
    **Note** the City will default to London, if no city name is typed into this field and the selected device doesn't contain location (latitude & longitude) details. 
 
 ### Development - to enhance and test this widget in your local environment
-1. Clone the repository on your local machine using `git clone https://github.com/SoftwareAG/cumulocity-weather-forecast-widget.git`.
+1. Clone the repository on your local machine using `git clone https://github.com/SoftwareAG/cumulocity-weather-forecast-widget-plugin.git`.
 2. Run `npm install` to download the module dependencies.
 3. Run `c8ycli server -u https://your_tenant_url` to start the server.
 4. Go to `http://localhost:9000/apps/cockpit/` in the browser to view and test your changes.
