@@ -3,7 +3,7 @@
   "version": "1.0.0-beta",
   "description": "This Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
   "scripts": {
-    "start": "c8ycli server --env.beta=true",
+    "start": "c8ycli server",
     "build": "c8ycli build",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
@@ -30,7 +30,7 @@
     "rxjs": "~6.6.3",
     "zone.js": "~0.11.7",
     "@c8y/style": "1016.0.40",
-    "@c8y/ng1-modules": "1006.6.13"
+    "@c8y/ng1-modules": "1016.0.40"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "14.0.6",
@@ -60,6 +60,9 @@
       "isPackage": true,
       "noAppSwitcher": true,
       "package": "plugin",
+      "icon": {
+        "class": "fa fw fa-sun-o"
+      },
       "requiredPlatformVersion": ">=1016.0.0",
       "exports": [
         {
