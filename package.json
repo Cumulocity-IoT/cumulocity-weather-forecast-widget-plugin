@@ -1,16 +1,20 @@
 {
   "name": "cumulocity-weather-forecast-widget-plugin",
-  "version": "1.0.0-beta",
-  "description": "This Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
+  "version": "1.0.0",
+  "description": "The Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
   "scripts": {
     "start": "c8ycli server",
-    "build": "c8ycli build",
+    "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [],
+  "keywords": [
+    "Cumulocity",
+    "Plugin",
+    "Widget"
+  ],
   "author": "Meer Arfath - Software AG, Global Presales",
   "license": "Apache-2.0",
   "dependencies": {
@@ -51,11 +55,11 @@
   },
   "c8y": {
     "application": {
-      "name": "cumulocity Weather Forecast Widget Plugin",
-      "description": "This Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
-      "contextPath": "weather-forecast-widget",
-      "key": "weather-forecast-widget-application-key",
-      "globalTitle": "This Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
+      "name": "Weather Forecast Widget",
+      "description": "The Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
+      "contextPath": "sag-ps-pkg-weather-forecast-widget",
+      "key": "sag-ps-pkg-weather-forecast-widget-application-key",
+      "globalTitle": "The Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
       "tabsHorizontal": true,
       "isPackage": true,
       "noAppSwitcher": true,
@@ -66,10 +70,10 @@
       "requiredPlatformVersion": ">=1016.0.0",
       "exports": [
         {
-          "name": "cumulocity Weather Forecast Widget Plugin",
+          "name": "Weather Forecast Widget",
           "module": "WeatherForecastWidgetModule",
           "path": "./weather-forecast-widget/weather-forecast-widget.module.ts",
-          "description": "This Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI."
+          "description": "The Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI."
         }
       ],
       "remotes": {

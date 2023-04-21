@@ -34,7 +34,7 @@ import { HttpClientModule } from "@angular/common/http";
         useValue: {
             id: 'global.presales.weather.forecast.widget',
             label: 'Weather Forecast',
-            description: 'Provides a 5-day weather forecast using OpenWeatherAPI',
+            description: 'The Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.',
             component: WeatherForecastWidget,
             configComponent: WeatherForecastWidgetConfig,
             previewImage: require("../styles/previewImage.png")

@@ -48,10 +48,11 @@ export class WeatherForecastWidgetConfig implements OnInit {
 
         if (_.has(this.config, 'weatherAPIConfig')) {
             this.weatherAPIConfig = _.get(this.config, 'weatherAPIConfig');
-        }}
+        }
+    }
 
     onConfigChanged($event: Event): void {
-        if (!this.weatherAPIConfig.apikey ) {
+        if (!this.weatherAPIConfig.apikey) {
             return;
         }
         _.set(this.config, 'weatherAPIConfig', { ...this.weatherAPIConfig });
