@@ -3,7 +3,7 @@
 The Weather Forecast Widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. 
 The Weather Forecast Widget help you to Displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.
 
-![Weather_Forecast](https://user-images.githubusercontent.com/99970126/180731134-c2a8a53b-317e-4a58-a8a1-f067a9801971.png)
+![Weather_Forecast](Images/Weather_Forecast.png)
 
 ### Please choose Weather Forecast Widget release based on Cumulocity/Application builder version:
 
