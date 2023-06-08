@@ -1,9 +1,9 @@
-# Weather Forecast Widget for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-weather-forecast-widget-plugin/releases/download/1.0.0/sag-ps-pkg-weather-forecast-widget-1.0.0.zip)
+# Weather Forecast Widget for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-weather-forecast-widget-plugin/releases/download/1.0.1/sag-ps-pkg-weather-forecast-widget-1.0.1.zip)
 
 The Weather Forecast Widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit. 
 The Weather Forecast Widget help you to Displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.
 
-![Weather_Forecast](https://user-images.githubusercontent.com/99970126/180731134-c2a8a53b-317e-4a58-a8a1-f067a9801971.png)
+![Weather_Forecast](images/Weather_Forecast.png)
 
 ### Please choose Weather Forecast Widget release based on Cumulocity/Application builder version:
 
@@ -27,7 +27,7 @@ The Weather Forecast Widget help you to Displays a 5-day weather forecast using 
 
 ### Runtime Widget Deployment?
 
-* This widget supports runtime deployment. Download the [Runtime Binary](https://github.com/SoftwareAG/cumulocity-weather-forecast-widget-plugin/releases/download/1.0.0/sag-ps-pkg-weather-forecast-widget-1.0.0.zip)and install via Administrations --> Ecosystems --> Applications --> Packages 
+* This widget supports runtime deployment. Download the [Runtime Binary](https://github.com/SoftwareAG/cumulocity-weather-forecast-widget-plugin/releases/download/1.0.1/sag-ps-pkg-weather-forecast-widget-1.0.1.zip)and install via Administrations --> Ecosystems --> Applications --> Packages 
 
 ## Quickstart
 

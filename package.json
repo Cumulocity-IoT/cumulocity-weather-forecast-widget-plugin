@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-weather-forecast-widget-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Weather Forecast Widget displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI.",
   "scripts": {
     "start": "c8ycli server",
@@ -80,7 +80,17 @@
         "widget-plugin": [
           "WeatherForecastWidgetModule"
         ]
-      }
+      },
+      "copy": [
+        {
+          "from": "images/Weather_Forecast.png",
+          "to": "images/Weather_Forecast.png"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE.txt"
+        }
+      ]
     },
     "cli": {}
   },
