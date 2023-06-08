@@ -80,17 +80,7 @@
         "widget-plugin": [
           "WeatherForecastWidgetModule"
         ]
-      },
-      "copy": [
-        {
-          "from": "Images/Weather_Forecast.png",
-          "to": "Images/Weather_Forecast.png"
-        },
-        {
-          "from": "LICENSE",
-          "to": "LICENSE.txt"
-        }
-      ]
+      }
     },
     "cli": {}
   },
