@@ -83,8 +83,8 @@
       },
       "copy": [
         {
-          "from": "images/Weather_Forecast.png",
-          "to": "images/Weather_Forecast.png"
+          "from": "images/weather-forecast.png",
+          "to": "images/weather-forecast.png"
         },
         {
           "from": "LICENSE",
