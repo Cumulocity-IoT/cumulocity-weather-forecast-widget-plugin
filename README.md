@@ -7,7 +7,7 @@ The Weather Forecast Widget help you to Displays a 5-day weather forecast using 
 
 ### Please choose Weather Forecast Widget release based on Cumulocity/Application builder version:
 
-|APPLICATION BUILDER | CUMULOCITY  | Weather Forecast WIDGET |
+|APPLICATION BUILDER&nbsp; |&nbsp; CUMULOCITY &nbsp; | &nbsp;Weather Forecast WIDGET&nbsp; |
 |--------------------|-------------|-------------------------|
 | 2.0.x              | >= 1016.x.x | 1.x.x                   |
 
